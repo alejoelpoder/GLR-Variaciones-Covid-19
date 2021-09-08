@@ -1,0 +1,1392 @@
+header {
+    background-color: rgb(32, 30, 30);
+}
+.top-header {
+    border-bottom: solid 3px #fff;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all 0.5s ease;
+    padding: 1px 42px;
+    height: 65px;
+}
+.a-header {
+    display: inline-block;
+    margin-top: 13px;
+}
+.logo-desktop {
+    font-size: 2.5rem;
+    color: #ffff;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 700;
+    margin: 0;
+}
+.logo-mobile {
+    font-size: 2.5rem;
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: 700;
+    margin: 0;
+}
+.hidden {
+    display: none;
+}
+.right {
+    margin-top: 13px;
+}
+header span {
+    font-size: 0;
+}
+span a.btn-fb {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+span a.btn-twt {
+    background-position: 0 -43px;
+    background-repeat: no-repeat;
+}
+span a.btn-wsp {
+    background-position: 0 -86px;
+    background-repeat: no-repeat;
+}
+.right span a {
+    background-image: url(https://s3.amazonaws.com/glr-demo/2020/04/13/icons-white-1586816732.svg);
+}
+span [class*="btn-"] {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    margin-left: 10px;
+}
+
+/*Main*/
+
+/*título*/
+h1 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    padding: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 44px;
+    left: 50%;
+    z-index: 99;
+    width: 900px;
+    margin-left: -450px;
+}
+
+/*introduccion*/
+.introduccion {
+    top: 160px;
+    font-size: 25px;
+    text-align: center;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 10px;
+    position: absolute;
+    z-index: 99;
+    margin-left: -384px;
+    left: 50%;
+}
+
+/*texto generales*/
+.box-relative {
+    position: relative;
+}
+.text {
+    position: absolute;
+}
+p {
+    color: #333333;
+}
+span {
+    font-weight: 700;
+}
+.inline {
+    display: inline;
+}
+
+/*desktop grande*/
+@media (min-width: 1442px) {
+    .box-relative {
+        width: 1548px;
+        margin: 0 auto;
+    }
+    .text {
+        width: 350px;
+        text-align: center;
+        font-size: 23px;
+        left: 50%;
+    }
+    .text-1{
+        top: 355px;
+        margin-left: -175px;
+    }
+    .text-2{
+        top: 1161px;
+        margin-left: -580px;
+    }
+    .text-3{
+        top: 1161px;
+        margin-left: 230px;
+    }
+    .text-ribosoma{
+        top: 1519px;
+        margin-left: -7px;
+    }
+    .text-4{
+        top: 1594px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-5{
+        top: 1854px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-6{
+        top: 2100px;
+        margin-left: -131px;
+        width: 262px;
+    }
+    .text-7{
+        top: 2500px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-8{
+        top: 2973px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-9{
+        top: 3333px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-adicional{
+        top: 3870px;
+        margin-left: -171px;
+        width: 342px;
+    }
+    .text-10{
+        top: 4545px;
+        margin-left: -380px;
+        width: 340px;
+    }
+    .text-11{
+        top: 5068px;
+        margin-left: -295px;
+        width: 590px;
+    }
+    .text-12{
+        top: 5500px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-12i{
+        top: 6173px;
+        margin-left: -565px;
+        width: 1130px;
+        text-align: left;
+    }
+    .text-t{
+        top: 6275px;
+        margin-left: -565px;
+        width: 587px;
+        font-size: 25px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+    }
+    .text-13{
+        top: 6325px;
+        margin-left: -565px;
+        width: 1000px;
+        text-align: left;
+    }
+    .text-espicula{
+        top: 6464px;
+        margin-left: -226px;
+        width: 94px;
+    }
+    .text-genespicula{
+        top: 6643px;
+        margin-left: 9px;
+        width: 138px;
+        font-size: 19px;
+    }
+    .text-14{
+        top: 6820px;
+        margin-left: -400px;
+        width: 800px;
+    }
+
+    .text-v-britanica-t, .text-v-sudafricana-t, .text-v-brasileña-t {
+        top: 6958px;
+        width: 800px;
+    }
+    .text-v-britanica-t{
+        margin-left: -788px;
+    }
+    .text-v-sudafricana-t{
+        margin-left: -395px;
+    }
+    .text-v-brasileña-t{
+        margin-left: -3px;
+    }
+    .text-v-britanica-t h3, .text-v-sudafricana-t h3, .text-v-brasileña-t h3{
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .text-v-britanica-t p, .text-v-sudafricana-t p, .text-v-brasileña-t p{
+        margin: 0;
+    }
+    .text-v-britanica-i, .text-v-sudafricana-i, .text-v-brasileña-i {
+        top: 7304px;
+    }
+    .text-v-britanica-i{
+        margin-left: -559px;
+    }
+    .text-v-sudafricana-i{
+        margin-left: -163px;
+    }
+    .text-v-brasileña-i{
+        margin-left: 225px;
+    }
+    .text-v-britanica-i h4, .text-v-sudafricana-i h4, .text-v-brasileña-i h4{
+        margin: 0;
+        font-size: 25px;
+        margin-bottom: 7px;
+    }
+    .text-v-britanica-i p, .text-v-sudafricana-i p, .text-v-brasileña-i p{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .text-15{
+        top: 7405px;
+        margin-left: -400px;
+        width: 800px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 28px;
+    }
+
+    .text-e-britanica-t, .text-e-sudafricana-t, .text-e-brasileña-t {
+        top: 7514px;
+        width: 800px;
+    }
+    .text-e-britanica-t {
+        margin-left: -788px;
+    }
+    .text-e-sudafricana-t {
+        margin-left: -400px;
+    }
+    .text-e-brasileña-t {
+        margin-left: -3px;
+    }
+    .text-e-britanica-t h3, .text-e-sudafricana-t h3, .text-e-brasileña-t h3 {
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .text-e-britanica-i, .text-e-sudafricana-i1, .text-e-brasileña-i1 {
+        top: 7810px;
+    }
+    .text-e-britanica-i {
+        margin-left: -566px;
+    }
+    .text-e-sudafricana-i1 {
+        margin-left: -173px;
+    }
+    .text-e-brasileña-i1 {
+        margin-left: 222px;
+    }
+    .text-e-sudafricana-i2, .text-e-brasileña-i2 {
+        top: 7753px;
+    }
+    .text-e-sudafricana-i2 {
+        margin-left: -296px;
+    }
+    .text-e-brasileña-i2 {
+        margin-left: 99px;
+    }
+
+    .text-16{
+        top: 7915px;
+        margin-left: -666px;
+        width: 585px;
+        font-size: 25px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+    }
+    .text-16i{
+        top: 7966px;
+        margin-left: -566px;
+        width: 1000px;
+        text-align: left;
+    }
+    .text-17, .text-18{
+        margin-left: -566px;
+        width: 1000px;
+        text-align: left;
+        font-size: 21px;
+    }
+    .text-17 {
+        top: 8080px;
+    }
+    .text-18 {
+        top: 8180px;
+    }
+    .text-17 span, .text-18 span{
+        font-weight: 700;
+    }
+    .text-17 p, .text-18 p{
+        display: inline;
+    }
+    .text-19 {
+        top: 8281px;
+        margin-left: -566px;
+        width: 1000px;
+        text-align: left;
+    }
+}
+@media (max-width: 1441px) {
+    .box-relative {
+        width: 1367px;
+        margin: 0 auto;
+    }
+    .box-relative img {
+        width: 1367px;
+    }
+    .text {
+        width: 350px;
+        text-align: center;
+        font-size: 20px;
+        left: 50%;
+    }
+    .text-1{
+        top: 313px;
+        margin-left: -175px;
+    }
+    .text-2{
+        top: 1043px;
+        margin-left: -540px;
+    }
+    .text-3{
+        top: 1043px;
+        margin-left: 190px;
+    }
+    .text-ribosoma{
+        top: 1345px;
+        margin-left: -23px;
+    }
+    .text-4{
+        top: 1422px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-5{
+        top: 1636px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-6{
+        top: 1840px;
+        margin-left: -131px;
+        width: 262px;
+    }
+    .text-7{
+        top: 2238px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-8{
+        top: 2639px;
+        margin-left: -279px;
+        width: 558px;
+    }
+    .text-9{
+        top: 2967px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-adicional{
+        top: 3436px;
+        margin-left: -171px;
+        width: 342px;
+    }
+    .text-10{
+        top: 4016px;
+        margin-left: -380px;
+        width: 340px;
+    }
+    .text-11{
+        top: 4478px;
+        margin-left: -295px;
+        width: 590px;
+    }
+    .text-12{
+        top: 4903px;
+        margin-left: -270px;
+        width: 540px;
+    }
+    .text-12i{
+        top: 5446px;
+        margin-left: -565px;
+        width: 1130px;
+        text-align: left;
+    }
+    .text-t{
+        top: 5531px;
+        margin-left: -565px;
+        width: 587px;
+        font-size: 25px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+    }
+    .text-13{
+        top: 5587px;
+        margin-left: -565px;
+        width: 1000px;
+        text-align: left;
+    }
+    .text-espicula{
+        top: 5715px;
+        margin-left: -210px;
+        width: 94px;
+    }
+    .text-genespicula{
+        top: 5867px;
+        margin-left: 9px;
+        width: 119px;
+        font-size: 17px;
+    }
+    .text-14{
+        top: 6034px;
+        margin-left: -400px;
+        width: 800px;
+    }
+
+    .text-v-britanica-t, .text-v-sudafricana-t, .text-v-brasileña-t {
+        top: 6142px;
+        width: 600px;
+    }
+    .text-v-britanica-t{
+        margin-left: -639px;
+    }
+    .text-v-sudafricana-t{
+        margin-left: -286px;
+    }
+    .text-v-brasileña-t{
+        margin-left: 50px;
+    }
+    .text-v-britanica-t h3, .text-v-sudafricana-t h3, .text-v-brasileña-t h3{
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .text-v-britanica-t p, .text-v-sudafricana-t p, .text-v-brasileña-t p{
+        margin: 0;
+    }
+    .text-v-britanica-i, .text-v-sudafricana-i, .text-v-brasileña-i {
+        top: 6465px;
+    }
+    .text-v-britanica-i{
+        margin-left: -516px;
+    }
+    .text-v-sudafricana-i{
+        margin-left: -164px;
+    }
+    .text-v-brasileña-i{
+        margin-left: 180px;
+    }
+    .text-v-britanica-i h4, .text-v-sudafricana-i h4, .text-v-brasileña-i h4{
+        margin: 0;
+        font-size: 25px;
+        margin-bottom: 7px;
+    }
+    .text-v-britanica-i p, .text-v-sudafricana-i p, .text-v-brasileña-i p{
+        margin: 0;
+        font-size: 20px;
+    }
+
+    .text-15{
+        top: 6546px;
+        margin-left: -400px;
+        width: 800px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 28px;
+    }
+
+    .text-e-britanica-t, .text-e-sudafricana-t, .text-e-brasileña-t {
+        top: 6635px;
+        width: 400px;
+    }
+    .text-e-britanica-t {
+        margin-left: -549px;
+    }
+    .text-e-sudafricana-t {
+        margin-left: -198px;
+    }
+    .text-e-brasileña-t {
+        margin-left: 145px;
+    }
+    .text-e-britanica-t h3, .text-e-sudafricana-t h3, .text-e-brasileña-t h3 {
+        font-size: 30px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .text-e-britanica-i, .text-e-sudafricana-i1, .text-e-brasileña-i1 {
+        top: 6903px;
+    }
+    .text-e-britanica-i {
+        margin-left: -524px;
+    }
+    .text-e-sudafricana-i1 {
+        margin-left: -173px;
+    }
+    .text-e-brasileña-i1 {
+        margin-left: 174px;
+    }
+    .text-e-sudafricana-i2, .text-e-brasileña-i2 {
+        top: 6837px;
+    }
+    .text-e-sudafricana-i2 {
+        margin-left: -273px;
+    }
+    .text-e-brasileña-i2 {
+        margin-left: 73px;
+    }
+
+    .text-16{
+        top: 6990px;
+        margin-left: -666px;
+        width: 585px;
+        font-size: 25px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+    }
+    .text-16i{
+        top: 7041px;
+        margin-left: -566px;
+        width: 1000px;
+        text-align: left;
+    }
+    .text-17, .text-18{
+        margin-left: -566px;
+        width: 1000px;
+        text-align: left;
+        font-size: 21px;
+    }
+    .text-17 {
+        top: 7155px;
+    }
+    .text-18 {
+        top: 7255px;
+    }
+    .text-17 span, .text-18 span{
+        font-weight: 700;
+    }
+    .text-17 p, .text-18 p{
+        display: inline;
+    }
+    .text-19 {
+        top: 7363px;
+        margin-left: -566px;
+        width: 1000px;
+        text-align: left;
+    }
+}
+@media (max-width: 1367px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    .introduccion {
+        top: 145px;
+        font-size: 20px;
+        max-width: 610px;
+        margin-left: -305px;
+    }
+    .box-relative {
+        width: 1024px;
+    }
+    .box-relative img {
+        width: 1024px;
+    }
+    .text {
+        width: 352px;
+        text-align: center;
+        font-size: 18px;
+        left: 50%;
+    }
+    .text-1{
+        top: 240px;
+        margin-left: -176px;
+    }
+    .text-2{
+        top: 765px;
+        margin-left: -480px;
+    }
+    .text-3{
+        top: 765px;
+        margin-left: 129px;
+    }
+    .text-ribosoma{
+        top: 1005px;
+        margin-left: -60px;
+    }
+    .text-4{
+        top: 1064px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-5{
+        top: 1222px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-6{
+        top: 1380px;
+        margin-left: -131px;
+        width: 262px;
+    }
+    .text-7{
+        top: 1660px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-8{
+        top: 1961px;
+        margin-left: -190px;
+        width: 380px;
+    }
+    .text-9{
+        top: 2204px;
+        margin-left: -225px;
+        width: 450px;
+    }
+    .text-adicional{
+        top: 2560px;
+        margin-left: -135px;
+        width: 270px;
+    }
+    .text-10{
+        top: 3016px;
+        margin-left: -300px;
+        width: 268px;
+    }
+    .text-11{
+        top: 3365px;
+        margin-left: -295px;
+        width: 590px;
+    }
+    .text-12{
+        top: 3640px;
+        margin-left: -240px;
+        width: 480px;
+    }
+    .text-12i{
+        top: 4075px;
+        margin-left: -501px;
+        width: 950px;
+        text-align: left;
+    }
+    .text-t{
+        top: 4145px;
+        margin-left: -501px;
+        width: 540px;
+        font-size: 23px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+    }
+    .text-13{
+        top: 4195px;
+        margin-left: -501px;
+        width: 907px;
+        text-align: left;
+    }
+    .text-espicula{
+        top: 4271px;
+        margin-left: -180px;
+        width: 94px;
+    }
+    .text-genespicula{
+        top: 4394px;
+        margin-left: 3px;
+        width: 97px;
+        font-size: 13px;
+    }
+    .text-14{
+        top: 4504px;
+        margin-left: -400px;
+        width: 800px;
+    }
+
+    .text-v-britanica-t, .text-v-sudafricana-t, .text-v-brasileña-t {
+        top: 4595px;
+        width: 230px;
+    }
+    .text-v-britanica-t{
+        margin-left: -377px;
+    }
+    .text-v-sudafricana-t{
+        margin-left: -109px;
+    }
+    .text-v-brasileña-t{
+        margin-left: 143px;
+    }
+    .text-v-britanica-t h3, .text-v-sudafricana-t h3, .text-v-brasileña-t h3{
+        font-size: 25px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .text-v-britanica-t p, .text-v-sudafricana-t p, .text-v-brasileña-t p{
+        margin: 0;
+    }
+    .text-v-britanica-i, .text-v-sudafricana-i, .text-v-brasileña-i {
+        top: 4834px;
+    }
+    .text-v-britanica-i{
+        margin-left: -434px;
+    }
+    .text-v-sudafricana-i{
+        margin-left: -164px;
+    }
+    .text-v-brasileña-i{
+        margin-left: 88px;
+    }
+    .text-v-britanica-i h4, .text-v-sudafricana-i h4, .text-v-brasileña-i h4{
+        margin: 0;
+        font-size: 22px;
+        margin-bottom: 0px;
+    }
+    .text-v-britanica-i p, .text-v-sudafricana-i p, .text-v-brasileña-i p{
+        margin: 0;
+        font-size: 19px;
+    }
+
+    .text-15{
+        top: 4905px;
+        margin-left: -400px;
+        width: 800px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 25px;
+    }
+
+    .text-e-britanica-t, .text-e-sudafricana-t, .text-e-brasileña-t {
+        top: 4974px;
+        width: 200px;
+    }
+    .text-e-britanica-t {
+        margin-left: -361px;
+    }
+    .text-e-sudafricana-t {
+        margin-left: -99px;
+    }
+    .text-e-brasileña-t {
+        margin-left: 159px;
+    }
+    .text-e-britanica-t h3, .text-e-sudafricana-t h3, .text-e-brasileña-t h3 {
+        font-size: 23px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .text-e-britanica-i, .text-e-sudafricana-i1, .text-e-brasileña-i1 {
+        top: 5160px;
+    }
+    .text-e-britanica-i {
+        margin-left: -435px;
+    }
+    .text-e-sudafricana-i1 {
+        margin-left: -173px;
+    }
+    .text-e-brasileña-i1 {
+        margin-left: 85px;
+    }
+    .text-e-sudafricana-i2, .text-e-brasileña-i2 {
+        top: 5118px;
+    }
+    .text-e-sudafricana-i2 {
+        margin-left: -253px;
+    }
+    .text-e-brasileña-i2 {
+        margin-left: 6px;
+    }
+
+    .text-16{
+        top: 5200px;
+        margin-left: -500px;
+        width: 390px;
+        font-size: 25px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+    }
+    .text-16i{
+        top: 5253px;
+        margin-left: -494px;
+        width: 924px;
+        text-align: left
+    }
+    .text-17, .text-18{
+        margin-left: -494px;
+        width: 1000px;
+        text-align: left;
+        font-size: 18px;
+    }
+    .text-17 {
+        top: 5340px;
+    }
+    .text-18 {
+        top: 5405px;
+    }
+    .text-17 span, .text-18 span{
+        font-weight: 700;
+    }
+    .text-17 p, .text-18 p{
+        display: inline;
+    }
+    .text-19 {
+        top: 5496px;
+        margin-left: -494px;
+        width: 1000px;
+        text-align: left;
+    }
+}
+@media (max-width: 1023px) {
+    h1 {
+        font-size: 2.5rem;
+        margin-top: 25px;
+        width: 760px;
+        margin-left: -380px;
+    }
+    .introduccion {
+        top: 115px;
+        font-size: 20px;
+        max-width: 610px;
+        margin-left: -305px;
+    }
+    .box-relative {
+        width: 768px;
+    }
+    .box-relative img {
+        width: 768px;
+    }
+    .text {
+        width: 242px;
+        text-align: center;
+        font-size: 16px;
+        left: 50%;
+    }
+    .text-1{
+        top: 172px;
+        margin-left: -157px;
+        width: 314px;
+    }
+    .text-2{
+        top: 560px;
+        margin-left: -350px;
+    }
+    .text-3{
+        top: 560px;
+        margin-left: 104px;
+    }
+    .text-ribosoma{
+        top: 747px;
+        margin-left: -39px;
+    }
+    .text-4{
+        top: 792px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-5{
+        top: 912px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-6{
+        top: 1030px;
+        margin-left: -98px;
+        width: 196px;
+    }
+    .text-7{
+        top: 1237px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-8{
+        top: 1463px;
+        margin-left: -170px;
+        width: 340px;
+    }
+    .text-9{
+        top: 1645px;
+        margin-left: -225px;
+        width: 450px;
+    }
+    .text-adicional{
+        top: 1909px;
+        margin-left: -105px;
+        width: 210px;    
+    }
+    .text-10{
+        top: 2253px;
+        margin-left: -300px;
+        width: 268px;
+    }
+    .text-11{
+        top: 2515px;
+        margin-left: -295px;
+        width: 590px;
+    }
+    .text-12{
+        top: 2725px;
+        margin-left: -215px;
+        width: 430px;
+    }
+    .text-12i{
+        top: 3061px;
+        margin-left: -375px;
+        width: 760px;
+        font-size: 14px;
+        text-align: left;
+    }
+    .text-t{
+        top: 3110px;
+        margin-left: -420px;
+        width: 538px;
+        font-size: 19px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+    }
+    .text-13{
+        top: 3145px;
+        margin-left: -374px;
+        width: 760px;
+        text-align: left;
+    }
+    .text-espicula{
+        top: 3202px;
+        margin-left: -150px;
+        width: 94px;
+    }
+    .text-genespicula{
+        top: 3292px;
+        margin-left: 3px;
+        width: 97px;
+        font-size: 13px;
+    }
+    .text-14{
+        top: 3372px;
+        margin-left: -375px;
+        width: 750px;
+    }
+
+    .text-v-britanica-t, .text-v-sudafricana-t, .text-v-brasileña-t {
+        top: 3445px;
+        width: 230px;
+    }
+    .text-v-britanica-t{
+        margin-left: -309px;
+    }
+    .text-v-sudafricana-t{
+        margin-left: -109px;
+    }
+    .text-v-brasileña-t{
+        margin-left: 80px;
+    }
+    .text-v-britanica-t h3, .text-v-sudafricana-t h3, .text-v-brasileña-t h3{
+        font-size: 21px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .text-v-britanica-t p, .text-v-sudafricana-t p, .text-v-brasileña-t p{
+        margin: 0;
+    }
+    .text-v-britanica-i, .text-v-sudafricana-i, .text-v-brasileña-i {
+        top: 3622px;
+    }
+    .text-v-britanica-i{
+        margin-left: -318px;
+    }
+    .text-v-sudafricana-i{
+        margin-left: -116px;
+    }
+    .text-v-brasileña-i{
+        margin-left: 76px;
+    }
+    .text-v-britanica-i h4, .text-v-sudafricana-i h4, .text-v-brasileña-i h4{
+        margin: 0;
+        font-size: 19px;
+        margin-bottom: 5px;
+    }
+    .text-v-britanica-i p, .text-v-sudafricana-i p, .text-v-brasileña-i p{
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .text-15{
+        top: 3675px;
+        margin-left: -370px;
+        width: 740px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 21px;
+    }
+
+    .text-e-britanica-t, .text-e-sudafricana-t, .text-e-brasileña-t {
+        top: 3730px;
+        width: 200px;
+    }
+    .text-e-britanica-t {
+        margin-left: -296px;
+    }
+    .text-e-sudafricana-t {
+        margin-left: -99px;
+    }
+    .text-e-brasileña-t {
+        margin-left: 95px;
+    }
+    .text-e-britanica-t h3, .text-e-sudafricana-t h3, .text-e-brasileña-t h3 {
+        font-size: 19px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .text-e-britanica-i, .text-e-sudafricana-i1, .text-e-brasileña-i1 {
+        top: 3870px;
+    }
+    .text-e-britanica-i {
+        margin-left: -316px;
+    }
+    .text-e-sudafricana-i1 {
+        margin-left: -120px;
+    }
+    .text-e-brasileña-i1 {
+        margin-left: 75px;
+    }
+    .text-e-sudafricana-i2, .text-e-brasileña-i2 {
+        top: 3830px;
+    }
+    .text-e-sudafricana-i2 {
+        margin-left: -184px;
+    }
+    .text-e-brasileña-i2 {
+        margin-left: 11px;
+    }
+
+    .text-16{
+        top: 3907px;
+        margin-left: -416px;
+        width: 390px;
+        font-size: 20px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+    }
+    .text-16i{
+        top: 3950px;
+        margin-left: -372px;
+        width: 740px;
+        text-align: left;
+    }
+    .text-17, .text-18{
+        margin-left: -373px;
+        width: 740px;
+        text-align: left;
+        font-size: 15px;
+    }
+    .text-17 {
+        top: 4017px;
+    }
+    .text-18 {
+        top: 4086px;
+    }
+    .text-17 span, .text-18 span{
+        font-weight: 700;
+    }
+    .text-17 p, .text-18 p{
+        display: inline;
+    }
+    .text-19 {
+        top: 4140px;
+        margin-left: -373px;
+        width: 740px;
+        text-align: left;
+        line-height: 20px;
+    }
+}
+@media (max-width: 759px) {
+    .top-header {
+        padding: 1px 5px;
+    }
+    h1 {
+        font-size: 1.4rem;
+        margin-top: 25px;
+        width: 290px;
+        margin: 0 auto;
+        margin-left: -145px;
+        margin-top: 15px;
+    }
+    .introduccion {
+        top: 115px;
+        font-size: 10px;
+        max-width: 340px;
+        margin-left: -170px;
+    }
+    .box-relative {
+        width: 360px;
+    }
+    .box-relative img {
+        width: 360px;
+    }
+    .text {
+        width: 130px;
+        text-align: center;
+        font-size: 10px;
+        left: 50%;
+    }
+    .text-1{
+        width: 118px;
+        top: 120px;
+        font-size: 10px;
+        max-width: 340px;
+        margin-left: -164px;
+    }
+    .text-2{
+        top: 250px;
+        margin-left: -174px;
+    }
+    .text-3{
+        top: 250px;
+        margin-left: 48px;
+    }
+    .text-ribosoma{
+        top: 345px;
+        margin-left: -26px;
+    }
+    .text-4{
+        top: 365px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-5{
+        top: 421px;
+        margin-left: -313px;
+        width: 626px;
+    }
+    .text-6{
+        top: 483px;
+        margin-left: -98px;
+        width: 196px;
+    }
+    .text-7{
+        top: 574px;
+        margin-left: -170px;
+        width: 340px;
+    }
+    .text-8{
+        top: 682px;
+        margin-left: -80px;
+        width: 160px;
+    }
+    .text-9{
+        top: 763px;
+        margin-left: -170px;
+        width: 340px;
+    }
+    .text-adicional{
+        top: 880px;
+        margin-left: -48px;
+        width: 96px;
+    }
+    .text-10{
+        top: 1044px;
+        margin-left: -160px;
+        width: 150px;
+    }
+    .text-11{
+        top: 1176px;
+        margin-left: -170px;
+        width: 340px;
+    }
+    .text-12{
+        top: 1275px;
+        margin-left: -170px;
+        width: 340px;
+    }
+    .text-12i{
+        top: 1424px;
+        margin-left: -170px;
+        width: 340px;
+        font-size: 9px;
+        text-align: left;
+    }
+    .text-t{
+        top: 1468px;
+        margin-left: -170px;
+        width: 340px;
+        font-size: 11px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+    }
+    .text-13{
+        top: 1496px;
+        margin-left: -155px;
+        width: 117px;
+        text-align: left;
+    }
+    .text-espicula{
+        top: 1491px;
+        margin-left: 3px;
+        width: 94px;
+    }
+    .text-genespicula{
+        top: 1537px;
+        margin-left: 12px;
+        width: 42px;
+        font-size: 10px;
+    }
+    .text-14{
+        top: 1589px;
+        margin-left: -170px;
+        width: 340px;
+        line-height: 10px;
+    }
+
+    .text-v-britanica-t, .text-v-sudafricana-t, .text-v-brasileña-t {
+        top: 1696px;
+        width: 100px;
+    }
+    .text-v-britanica-t{
+        margin-left: -139px;
+    }
+    .text-v-sudafricana-t{
+        margin-left: -45px;
+    }
+    .text-v-brasileña-t{
+        margin-left: 43px;
+    }
+    .text-v-britanica-t h3, .text-v-sudafricana-t h3, .text-v-brasileña-t h3{
+        font-size: 10px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .text-v-britanica-t p, .text-v-sudafricana-t p, .text-v-brasileña-t p{
+        margin: 0;
+    }
+    .text-v-britanica-i, .text-v-sudafricana-i, .text-v-brasileña-i {
+        top: 1720px;
+    }
+    .text-v-britanica-i{
+        margin-left: -151px;
+    }
+    .text-v-sudafricana-i{
+        margin-left: -58px;
+    }
+    .text-v-brasileña-i{
+        margin-left: 29px;
+    }
+    .text-v-britanica-i h4, .text-v-sudafricana-i h4, .text-v-brasileña-i h4{
+        margin: 0;
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+    .text-v-britanica-i p, .text-v-sudafricana-i p, .text-v-brasileña-i p{
+        margin: 0;
+        font-size: 10px;
+    }
+
+    .text-15{
+        top: 1606px;
+        margin-left: -170px;
+        width: 340px;
+        font-family: 'Roboto Slab', serif;
+        font-size: 13px;
+    }
+
+    .text-e-britanica-t, .text-e-sudafricana-t, .text-e-brasileña-t {
+        top: 3730px;
+        width: 200px;
+        display: none;
+    }
+    .text-e-britanica-t {
+        margin-left: -296px;
+    }
+    .text-e-sudafricana-t {
+        margin-left: -99px;
+    }
+    .text-e-brasileña-t {
+        margin-left: 95px;
+    }
+    .text-e-britanica-t h3, .text-e-sudafricana-t h3, .text-e-brasileña-t h3 {
+        font-size: 19px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .text-e-britanica-i, .text-e-sudafricana-i1, .text-e-brasileña-i1 {
+        top: 1812px;
+    }
+    .text-e-britanica-i {
+        margin-left: -155px;
+    }
+    .text-e-sudafricana-i1 {
+        margin-left: -64px;
+    }
+    .text-e-brasileña-i1 {
+        margin-left: 27px;
+    }
+    .text-e-sudafricana-i2, .text-e-brasileña-i2 {
+        top: 1791px;
+    }
+    .text-e-sudafricana-i2 {
+        margin-left: -97px;
+    }
+    .text-e-brasileña-i2 {
+        margin-left: -7px;
+    }
+
+    .text-16{
+        top: 1830px;
+        margin-left: -177px;
+        width: 159px;
+        font-size: 10px;
+        font-family: 'Roboto Slab', serif;
+        font-weight: 600;
+    }
+    .text-16i{
+        top: 1844px;
+        margin-left: -173px;
+        width: 340px;
+        text-align: left;
+    }
+    .text-17, .text-18{
+        margin-left: -173px;
+        width: 340px;
+        text-align: left;
+        font-size: 10px;
+    }
+    .text-17 {
+        top: 1884px;
+    }
+    .text-18 {
+        top: 1930px;
+    }
+    .text-17 span, .text-18 span{
+        font-weight: 700;
+    }
+    .text-17 p, .text-18 p{
+        display: inline;
+    }
+    .text-19 {
+        top: 1985px;
+        margin-left: -173px;
+        width: 340px;
+        text-align: left;
+        line-height: 13px;
+    }
+    html {
+        background-color: #e3e3e3; 
+    }
+  }

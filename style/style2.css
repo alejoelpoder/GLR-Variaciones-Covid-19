@@ -1,0 +1,886 @@
+header {
+    background-color: rgb(32, 30, 30);
+}
+.top-header {
+    border-bottom: solid 3px #fff;
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all 0.5s ease;
+    padding: 1px 42px;
+    height: 65px;
+}
+.a-header {
+    display: inline-block;
+    margin-top: 13px;
+}
+.logo-desktop {
+    font-size: 2.5rem;
+    color: #ffff;
+    text-shadow: 1px 1px 1px #000;
+    font-weight: 700;
+    margin: 0;
+}
+.logo-mobile {
+    font-size: 2.5rem;
+    color: #000;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: 700;
+    margin: 0;
+}
+.hidden {
+    display: none;
+}
+.right {
+    margin-top: 13px;
+}
+header span {
+    font-size: 0;
+}
+span a.btn-fb {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+span a.btn-twt {
+    background-position: 0 -43px;
+    background-repeat: no-repeat;
+}
+span a.btn-wsp {
+    background-position: 0 -86px;
+    background-repeat: no-repeat;
+}
+.right span a {
+    background-image: url(https://s3.amazonaws.com/glr-demo/2020/04/13/icons-white-1586816732.svg);
+}
+span [class*="btn-"] {
+    display: inline-block;
+    width: 43px;
+    height: 43px;
+    margin-left: 10px;
+}
+
+/*footer*/
+
+footer {
+    padding: 35px 5px;
+    margin-top: 30px;
+    border-top: solid aliceblue;
+    background-color: rgb(32, 30, 30);
+}
+footer p, footer h1, footer h3 {
+    margin: 0;
+    color: white;
+}
+.creditos {
+    width: 363px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.creditos h2 {
+    color: #fff;
+    font-size: 35px;
+    margin: 0;
+}
+.credito p, .credito h3 {
+    display: inline;
+    font-size: 22px;
+}
+.credito-first {
+    text-align: justify;
+    padding: 15px 0;
+}
+
+footer h3, div.credito {
+    margin: 10px;
+}
+
+/*Main*/
+
+/*título*/
+h1 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 3rem;
+    padding: 20px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 50px;
+}
+
+/*introduccion*/
+.introduccion {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto 100px;
+    padding: 10px;
+    max-width: 500px;
+}
+.introduccion p {
+    margin: 0;
+}
+
+/*main*/
+
+main img {
+    width: 100%;
+}
+
+.text {
+    width: 424px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+
+.text-1 {
+    padding: 10px;
+}
+
+.celula {
+    background: #f7f7f7;
+    margin-top: -5px;
+}
+.foto3 {
+    margin-top: -5px;
+}
+.foto4 {
+    margin-top: -5px;
+}
+
+span {
+    font-weight: 700;
+}
+
+/*Desktop grande*/
+.img2-text, .img3-img4-text, .img5-text, .flecha, .mutacion-en-celula, .img9-text, .virus-con-mutaciones, .img12-text, .img13-text, .img14-text {
+    width: 1442px;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+.img2-text, .img9-text, .img12-text, .img13-text, .img14-text {
+    position: relative;
+}
+.img3-img4-text {
+    margin-top: 100px;
+}
+.text-2, .text-3, .text-ribosoma {
+    position: absolute;
+    top: 150px;
+    left: 50%;
+}
+.text-2 {
+    margin-left: -580px;
+    max-width: 350px;
+}
+.text-3 {
+    margin-left: 230px;
+    max-width: 350px;
+}
+.text-ribosoma {
+    top: 484px;
+    width: 200px;
+    margin-left: 54px;
+}
+.text-4 {
+    margin-top: 40px;
+}
+.serie-arn {
+    margin-top: 20px;
+}
+.text-5 {
+    margin-top: 20px;
+}
+.serie-arn-mutacion {
+    margin-top: 16px;
+}
+.text-6 {
+    margin-top: 8px;
+}
+.img5-text {
+    margin-top: 50px;
+}
+.text-8 {
+    margin: 0 auto;
+    margin-top: -60px;
+}
+.flecha {
+    margin-top: 40px;
+}
+.text-9 {
+    margin-top: 25px;
+}
+.text-adicional {
+    width: 330px;
+    margin: 0 auto;
+    margin-top: -420px;
+}
+.img9-text {
+    margin-top: 280px;
+}
+.text-10 {
+    position: absolute;
+    left: 50%;
+    width: 360px;
+    margin-left: -440px;
+    top: 315px;
+}
+.muchos-virus-con-mutaciones {
+    margin-top: 40px;
+}
+.text-12i {
+    text-align: justify;
+    max-width: 640px;
+    margin-top: 30px;
+}
+.text-t {
+    width: 465px !important;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    margin-top: 80px;
+    font-size: 25px;
+}
+.text-13 {
+    text-align: justify;
+    max-width: 640px;
+    margin-top: 25px;
+}
+.text-espicula, .text-genespicula {
+    position: absolute;
+    width: 200px;
+    left: 50%;
+}
+.text-espicula {
+    margin-left: -270px;
+    top: 100px;
+}
+.text-genespicula {
+    margin-left: 160px;
+    top: 289px;
+}
+.text-genespicula::before {
+    content: "";
+    width: 99px;
+    height: 3px;
+    background-color: #676767;
+    position: absolute;
+    left: -78px;
+    transform: rotate(28deg);
+    top: -14px;
+}
+.text-14 {
+    text-align: justify;
+}
+.img13-text {
+    margin-top: 120px;
+    margin-bottom: 180px;
+}
+.variable-titulo, .variable-info {
+    position: absolute;
+    text-align: center;
+    width: 190px;
+    left: 50%;
+}
+.variable-titulo {
+    top: -60px;
+}
+.variable-info {
+    top: 300px;
+}
+.variante-britanica-titulo, .variante-britanica-info {
+    margin-left: -459px;
+}
+.variante-sudafrica-titulo, .variante-sudafrica-info {
+    margin-left: -87px;
+}
+.variante-brasileña-titulo, .variante-brasileña-info {
+    margin-left: 277px;
+}
+.variante-codigo {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    margin-top: 60px;
+    font-size: 30px;
+    margin: 0;
+}
+.variante-nombre {
+    font-size: 20px;
+    margin-top: 5px;
+}
+.variable-info p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+.img14-text {
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+.variante-codigo-espicula {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    margin-top: 60px;
+    font-size: 30px;
+    margin: 0;
+    width: 190px;
+    top: -30px;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+}
+.espicula-britanica {
+    margin-left: -459px;
+}
+.espicula-sudafricana {
+    margin-left: -87px;
+}
+.espicula-brasileña {
+    margin-left: 277px;
+}
+.variante-codigo-espicula-especifica {
+    width: 140px;
+    text-align: center;
+    font-size: 25px;
+    left: 50%;
+    position: absolute;
+    top: 345px;
+}
+.variante-codigo-espicula-britanica-especifica {
+    margin-left: -435px;
+}
+.variante-codigo-espicula-sudafricana-especifica-1 {
+    margin-left: -70px;
+}
+.variante-codigo-espicula-sudafricana-especifica-2 {
+    margin-left: -150px;
+    top: 301px;
+}
+.variante-codigo-espicula-brasileña-especifica-1 {
+    margin-left: 295px;
+}
+.variante-codigo-espicula-brasileña-especifica-2 {
+    margin-left: 215px;
+    top: 301px;
+}
+.text-15 {
+    margin-bottom: 40px;
+}
+.text-15, .text-16, .text-17, .text-18 {
+    text-align: justify;
+    max-width: 640px;
+    margin-top: 25px;
+}
+.text-16 p, .text-17 p {
+    display: inline;
+}
+.text-18 {
+    margin-top: 40px;
+}
+
+@media (max-width: 1441px) {
+    .text-1 {
+        margin-bottom: -10;
+    }
+
+    .img2-text, .img3-img4-text, .img5-text, .flecha, .mutacion-en-celula, .img9-text, .virus-con-mutaciones, .img12-text, .img13-text, .img14-text {
+        width: 1367px;
+    }
+
+    .text-2, .text-3 {
+        top: 135px;
+    }
+    .text-2 {
+        margin-left: -565px;
+    }
+    .text-3 {
+        margin-left: 215px;
+    }
+    .text-ribosoma {
+        top: 453px;
+        margin-left: 48px;
+    }
+
+    .text-adicional {
+
+        margin-top: -399px;
+    }
+
+    .variante-britanica-titulo, .variante-britanica-info {
+        margin-left: -442px;
+    }
+    .variante-brasileña-titulo, .variante-brasileña-info {
+        margin-left: 263px;
+    }
+
+    .variante-codigo-espicula {
+        top: -18px;
+    }
+    .espicula-britanica {
+        margin-left: -442px;
+    }
+    .espicula-brasileña {
+        margin-left: 252px;
+    }
+    .variante-codigo-espicula-especifica {
+        top: 315px;
+    }
+    .variante-codigo-espicula-britanica-especifica {
+        margin-left: -416px;
+    }
+    .variante-codigo-espicula-brasileña-especifica-1 {
+        margin-left: 281px;
+    }
+    .variante-codigo-espicula-sudafricana-especifica-2, .variante-codigo-espicula-brasileña-especifica-2 {
+        top: 285px;
+    }
+
+}
+@media (max-width: 1367px) {
+    .text {
+        font-size: 18px;
+    }
+    .text-1 {
+        margin-bottom: 5px;
+    }
+
+    .img2-text, .img3-img4-text, .img5-text, .flecha, .mutacion-en-celula, .img9-text, .virus-con-mutaciones, .img12-text, .img13-text, .img14-text {
+        width: 1023px;
+    }
+    .img3-img4-text {
+        margin-top: 70px;
+    }
+    .text-2, .text-3 {
+        top: 115px;
+        width: 352px;
+    }
+    .text-2 {
+        margin-left: -480px;
+    }
+    .text-3 {
+        margin-left: 129px;
+    }
+    .text-ribosoma {
+        top: 339px;
+        margin-left: 11px;
+        font-size: 17px;
+    }
+    .text-6 {
+        margin-top: 6px;
+    }
+
+    .text-adicional {
+        margin-top: -302px;
+        width: 262px;
+    }
+
+    .text-10 {
+        top: 223px
+    }
+    
+    .text-t {
+        font-size: 23px;
+    }
+
+    .variante-britanica-titulo, .variante-britanica-info {
+        margin-left: -350px;
+    }
+    .variante-brasileña-titulo, .variante-brasileña-info {
+        margin-left: 170px;
+    }
+    .variable-info {
+        top: 222px;
+    }
+
+    .text-t {
+        margin-top: 50px;
+    }
+    .text-espicula {
+        margin-left: -230px;
+        top: 68px;
+    }
+    .text-genespicula {
+        margin-left: 134px;
+        top: 219px;
+    }
+
+    .img13-text {
+        margin-bottom: 150px;
+    }
+    .img14-text {
+        margin-top: 55px;
+    }
+
+    .variante-codigo {
+        font-size: 23px;
+    }
+    .variable-titulo {
+        top: -40px;
+    }
+    .variante-nombre {
+        font-size: 18px;
+        margin-top: -5px;
+    }
+
+    .variante-codigo-espicula {
+        font-size: 25px;
+        width: 170px;
+    }
+    .espicula-britanica {
+        margin-left: -348px;
+    }
+    .espicula-brasileña {
+        margin-left: 174px;
+    }
+    .variante-codigo-espicula-especifica {
+        font-size: 23px;
+        top: 231px;
+    }
+    .variante-codigo-espicula-britanica-especifica {
+        margin-left: -331px;
+    }
+    .variante-codigo-espicula-brasileña-especifica-1 {
+        margin-left: 195px;
+    }
+    .variante-codigo-espicula-brasileña-especifica-2 {
+        margin-left: 112px;
+    }
+    .variante-codigo-espicula-sudafricana-especifica-2, .variante-codigo-espicula-brasileña-especifica-2 {
+        top: 208px;
+    }
+
+    .text-14 {
+        margin-top: 20px;
+    }
+
+    .img14-text {
+        margin-bottom: 80px;
+    }
+
+}
+@media (max-width: 1023px) {
+    h1 {
+        font-size: 35px;
+    }
+    .introduccion {
+        text-align: justify;
+        font-size: 18px;
+        margin: 0 auto 100px;
+        max-width: 396px;
+    }
+
+    .text-1 {
+        font-size: 18px;
+    }
+
+    .img2-text, .img3-img4-text, .img5-text, .flecha, .mutacion-en-celula, .img9-text, .virus-con-mutaciones, .img12-text, .img13-text, .img14-text {
+        width: 759px;
+    }
+    .text-2, .text-3 {
+        top: 72px;
+        width: 242px;
+        font-size: 16px;
+    }
+    .text-2 {
+        margin-left: -350px;
+    }
+    .text-3 {
+        margin-left: 104px;
+    }
+    .text-ribosoma {
+        top: 250px;
+        margin-left: -17px;
+        font-size: 14px;
+    }
+    .text-4 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .text-5, .text-7 {
+        font-size: 18px;
+    }
+    .text-6 {
+        margin-top: 5px;
+        font-size: 18px;
+    }
+    .text-8 {
+        width: 340px;
+    }
+
+    .text-adicional {
+        margin-top: -243px;
+        width: 194px;
+        font-size: 17px;
+    }
+
+    .text-genespicula::before {
+        left: -38px;
+        width: 71px;
+    }
+    .text-genespicula {
+        margin-left: 75px;
+        top: 169px;
+    }
+    .text-espicula {
+        margin-left: -206px;
+        top: 50px;
+    }
+
+    .text-10 {
+        width: 295px;
+        margin-left: -337px;
+        top: 143px;
+    }
+    
+    .img9-text {
+        margin-top: 160px;
+    }
+
+    .variable-info {
+        top: 160px;
+    }
+    .variable-info p {
+        font-size: 17px;
+        margin-bottom: 3px;
+        margin-top: 0px;
+    }
+
+    .variante-britanica-titulo, .variante-britanica-info {
+        margin-left: -289px;
+    }
+    .variante-brasileña-titulo, .variante-brasileña-info {
+        margin-left: 102px;
+    }
+
+    .variante-codigo-espicula {
+        font-size: 23px;
+        width: 170px;
+    }
+    .espicula-britanica {
+        margin-left: -278px;
+    }
+    .espicula-brasileña {
+        margin-left: 107px;
+    }
+    .variante-codigo-espicula-especifica {
+        font-size: 20px;
+        top: 167px;
+    }
+    .variante-codigo-espicula-britanica-especifica {
+        margin-left: -264px;
+    }
+    .variante-codigo-espicula-brasileña-especifica-1 {
+        margin-left: 125px;
+    }
+    .variante-codigo-espicula-brasileña-especifica-2 {
+        margin-left: 60px;
+    }
+    .variante-codigo-espicula-sudafricana-especifica-2 {
+        margin-left: -135px;
+    }
+    .variante-codigo-espicula-sudafricana-especifica-2, .variante-codigo-espicula-brasileña-especifica-2 {
+        top: 148px;
+    }
+
+}
+@media (max-width: 759px) {
+
+    .top-header {
+        padding: 1px 8px;
+    }
+
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .introduccion {
+        max-width: 300px;
+    }
+
+    .text {
+        max-width: 320px;
+        font-size: 16px;
+    }
+
+    .text-1 {
+        margin-bottom: 15px;
+        font-size: 16px;
+        max-width: 335px;
+    }
+
+    .img2-text, .img3-img4-text, .img5-text, .flecha, .mutacion-en-celula, .img9-text, .virus-con-mutaciones, .img12-text, .img13-text, .img14-text {
+        width: 360px;
+    }
+    .text-2, .text-3 {
+        top: -3px;
+        width: 130px;
+        font-size: 13px;
+    }
+    .text-2 {
+        margin-left: -174px;
+    }
+    .text-3 {
+        margin-left: 48px;
+    }
+    .text-ribosoma {
+        top: 117px;
+        margin-left: -60px;
+        font-size: 11px;
+    }
+
+    .img3-img4-text {
+        margin-top: 30px;
+    }
+    .text-4 {
+        padding: 10px;
+    }
+    .serie-arn {
+        margin-top: 10px;
+    }
+    .text-5 {
+        margin-top: 10px;
+    }
+    .text-6 {
+        margin-top: 7px;
+    }
+
+    .text-8 {
+        max-width: 270px;
+        margin-top: 0px;
+    }
+
+    .text-9 {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .mutacion-en-celula {
+        width: 375px;
+    }
+
+    .text-adicional {
+        font-size: 12px;
+        margin-top: -132px;
+        width: 106px;
+    }
+
+    .img9-text {
+        margin-top: 55px;
+    }
+
+
+    .text-10 {
+        width: 157px;
+        margin-left: -164px;
+        top: 64px;
+        font-size: 12px !important;
+    }
+
+    .text-t {
+        font-size: 20px;
+        max-width: 360px;
+    }
+
+    .text-espicula {
+        width: 70px;
+        margin-left: -92px;
+        top: 15px;
+        font-size: 13px !important;
+    }
+    .text-genespicula {
+        width: 150px;
+        margin-left: 30px;
+        top: 79px;
+        font-size: 13px !important;
+    }
+    .text-genespicula::before {
+        left: -14px;
+        width: 36px;
+        top: -3px;
+        height: 2px;
+    }
+
+    .img12-text {
+        margin-top: 20px;
+    }
+
+    .img13-text {
+        margin-top: 90px;
+        margin-bottom: 100px;
+        width: 375px;
+    }
+    .variable-titulo, .variable-info {
+        width: 125px;
+    }
+    .variable-titulo {
+        top: -33px;
+    }
+    .variante-codigo {
+        font-size: 18px;
+    }
+    .variante-nombre {
+        font-size: 11px;
+        margin-top: -5px;
+    }
+    .variante-britanica-titulo, .variante-britanica-info {
+        margin-left: -160px;
+    }
+    .variante-sudafrica-titulo, .variante-sudafrica-info {
+        margin-left: -61px;
+    }
+    .variante-brasileña-titulo, .variante-brasileña-info {
+        margin-left: 38px;
+    }
+    .variable-info {
+        top: 87px;
+    }
+    .variable-info p {
+        font-size: 11px;
+        margin-bottom: 3px;
+        margin-top: -1px;
+    }
+
+    .img14-text {
+        width: 375px;
+        margin-bottom: -5px;
+    }
+    .variante-codigo-espicula {
+        font-size: 18px;
+        width: 100px;
+    }
+    .espicula-britanica {
+        margin-left: -145px;
+    }
+    .espicula-sudafricana {
+        margin-left: -50px;
+    }
+    .espicula-brasileña {
+        margin-left: 45px;
+    }
+    .variante-codigo-espicula-especifica {
+        font-size: 13px;
+        top: 79px;
+    }
+    .variante-codigo-espicula-britanica-especifica {
+        margin-left: -166px;
+    }
+    .variante-codigo-espicula-brasileña-especifica-1 {
+        margin-left: 26px;
+    }
+    .variante-codigo-espicula-sudafricana-especifica-2 {
+        margin-left: -110px;
+        top: 67px;
+    }
+    .variante-codigo-espicula-brasileña-especifica-2 {
+        margin-left: -14px;
+        top: 67px;
+    }
+
+}
+
